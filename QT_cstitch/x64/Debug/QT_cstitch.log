@@ -1,0 +1,22 @@
+﻿  Reading Qt configuration (C:/Qt/6.2.4/msvc2019_64/bin/qmake)
+  main.cpp
+  squareImageContainer.cpp
+  squareToolHistories.cpp
+  squareTools.cpp
+  squareWindow.cpp
+  windowManager.cpp
+C:\Users\trey\source\repos\QT_cstitch\QT_cstitch\main.cpp(39,18): warning C4834: discarding return value of function with 'nodiscard' attribute
+C:\Qt\6.2.4\msvc2019_64\include\QtCore\qshareddata.h(193,12): error C2440: 'initializing': cannot convert from 'T *' to 'T *'
+          with
+          [
+              T=imageContainer
+          ]
+          and
+          [
+              T=squareImageContainer
+          ] (compiling source file squareWindow.cpp)
+C:\Qt\6.2.4\msvc2019_64\include\QtCore\qshareddata.h(193,12): message : Cast from base to derived requires dynamic_cast or static_cast (compiling source file squareWindow.cpp)
+C:\Users\trey\source\repos\QT_cstitch\QT_cstitch\squareWindow.cpp(981): message : see reference to function template instantiation 'QExplicitlySharedDataPointer<squareImageContainer>::QExplicitlySharedDataPointer<imageContainer>(const QExplicitlySharedDataPointer<imageContainer> &) noexcept' being compiled
+C:\Users\trey\source\repos\QT_cstitch\QT_cstitch\squareWindow.cpp(981): message : see reference to function template instantiation 'QExplicitlySharedDataPointer<squareImageContainer>::QExplicitlySharedDataPointer<imageContainer>(const QExplicitlySharedDataPointer<imageContainer> &) noexcept' being compiled
+C:\Qt\6.2.4\msvc2019_64\include\QtCore\qshareddata.h(195,1): error C2439: 'QExplicitlySharedDataPointer<squareImageContainer>::d': member could not be initialized (compiling source file squareWindow.cpp)
+C:\Qt\6.2.4\msvc2019_64\include\QtCore\qshareddata.h(241): message : see declaration of 'QExplicitlySharedDataPointer<squareImageContainer>::d' (compiling source file squareWindow.cpp)

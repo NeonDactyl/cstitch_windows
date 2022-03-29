@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Cstitch: a free and open source program for creating cross stitch
+    patterns from images</title>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <style type="text/css">
+    div#nav a#home_link {
+      color: #678BAD;
+    }
+  </style>
+</head>
+
+<body>
+
+<!--#include file="title.html" -->
+
+<p>
+<img class="blockImg" src="images/mcSquare.jpg" alt="Screenshot of the
+cstitch program" />
+</p>
+<div class="imgTitleLarge">Screenshot of cstitch, showing the original
+image on the left and an edited squared version on the right - the
+original image uses 68,439 colors, the one on the right uses 23.</div>
+
+<div class="heading">Features</div>
+<ul class="squareUL">
+  <li><span>
+    Load images in various formats, including jpg, png, and gif.
+  </span></li>
+  <li><span> Choose from several options for selecting colors to be
+    used in the pattern
+    &rarr;<a href="doc.shtml#colorSelectionMode">more
+    information</a>.
+  </span></li>
+  <li><span>
+    Choose how large you want your final pattern to be (by choosing the
+    size of squares to be imposed on your image
+    &rarr;<a href="doc.shtml#squareSize">more information</a>).
+  </span></li>
+  <li><span>
+    Edit your pattern (see the screenshot above) with tools including
+    draw, change color, and fill region
+    &rarr;<a href="doc.shtml#squareTools">more information</a>.
+  </span></li>
+  <li><span>
+    Save your project and restore for later editing
+    &rarr;<a href="doc.shtml#saveRestore">more information</a>.
+  </span></li>
+  <li><span>
+    Save the final pattern as a pdf.
+  </span></li>
+</ul>
+
+<div class="heading">Notes</div>
+<ul class="squareUL">
+  <li><span>
+      Questions or comments?  Email tomklein@users.sourceforge.net.
+  </span></li>
+  <li><span>
+      Found a bug? Please report it using the <a href="http://sourceforge.net/tracker/?group_id=529723&amp;atid=2151826">bug tracker</a>.
+  </span></li>
+  <li><span>
+      Have a feature you'd like to see that's not currently implemented?
+      Let me know using
+      the <a href="http://sourceforge.net/tracker/?group_id=529723&amp;atid=2151829">
+        Feature Tracker</a>.
+  </span></li>
+  <li><span>
+      Visit the sourceforge <a href="http://sourceforge.net/projects/cstitch/">project page</a> for cstitch.
+  </span></li>
+  <li><span>
+      The source is also available at <a href="https://github.com/kleintom/Cstitch">github</a>.
+  </span></li>
+</ul>
+
+<div class="heading">Release Notes</div>
+
+<p>
+<span class="rnd">5-5-14</span>
+Beta version 0.9.5 released:
+</p>
+<ul class="squareUL">
+  <li><span>
+      Updates for internationalization
+  </span></li>
+  <li><span>
+      Italian translation provided by Michele Marino - thanks Michele!  The
+      Italian translation will load automatically based on your computer's
+      locale settings.
+  </span></li>
+</ul>
+
+<p>
+<span class="rnd">1-24-14</span>
+Beta version 0.9.4 released:
+</p>
+<ul class="squareUL">
+  <li><span>
+      bug fixes
+  </span></li>
+  <li><span>
+      recent images and projects menus
+  </span></li>
+  <li><span>
+      ctrl-mouse wheel zooming, shift-mouse wheel horizontal scrolling
+  </span></li>
+</ul>
+
+<p>
+<span class="rnd">6-20-11</span>
+Beta version 0.9.3 released:
+</p>
+<ul class="squareUL">
+  <li><span>
+      bug fixes
+  </span></li>
+  <li><span>
+      now support Anchor floss in addition to DMC floss
+  </span></li>
+</ul>
+
+<p>
+<span class="rnd">5-8-11</span>
+Beta version 0.9.2 released:
+</p>
+<ul class="squareUL">
+  <li><span>
+      bug fixes
+  </span></li>
+  <li><span>
+      no longer using pattern symbols with thickened border (they were hard to distinguish)
+  </span></li>
+  <li><span>
+      specify pdf symbol size on pdf save
+  </span></li>
+  <li><span>
+      autoload pdf viewer on pdf save
+  </span></li>
+</ul>
+
+<p>
+<span class="rnd">4-24-11</span>
+Beta version 0.9.1 released: bug fixes; linux binary now available
+(see README_linux under downloads for distribution availability).
+</p>
+
+<p>
+<span class="rnd">4-6-11</span>
+Beta version 0.9.0 released.
+</p>
+
+</body>
+</html>
