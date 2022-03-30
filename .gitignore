@@ -1,1 +1,7 @@
 .vs
+QT_cstitch/x64/**
+QT_cstitch/x64/Debug/**
+QT_cstitch/x64/Debug/*
+QT_cstitch/x64/Debug/qmake/**
+QT_cstitch/x64/Debug/qmake/temp/**
+x64/**
