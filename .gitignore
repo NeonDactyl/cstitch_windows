@@ -2,3 +2,5 @@
 QT_cstitch/x64/**
 **/x64/**
 **/Debug/**
+*.log
+*.obj
